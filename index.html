@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PENDATAAN PENGUNJUNG WEB</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div>
+		<nav>
+			<div class="logo">
+				<h4>Welcome!</h4>
+			</div>
+			<div></div>
+			<ul>
+				<li></li>
+				<li ><a href="index.html">Home</a></li>
+				<li><a href="data.php">Data Pengunjung</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="isi">
+		<h2 align="center">FORMULIR PENGUNJUNG WEB</h2>
+		<form name="form1" method="post" action="akses.php">
+		<table border="0">
+			<tr>
+				<td>Tanggal</td>
+				<td ></td>
+				<td><input type="date" name="tanggal" id="tanggal"></td>
+			</tr>
+			<tr>
+				<td>Nama Lengkap</td>
+				<td></td>
+				<td><input type="text" name="nama" id="nama"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td></td>
+				<td><input type="text" name="alamat" id="alamat"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td></td>
+				<td><input type="text" name="jenis" id="jenis"></td>
+			</tr>
+			<tr>
+				<td>Status</td>
+				<td></td>
+				<td><select name="status" id="status">
+					<option>Pelajar</option>
+					<option>Mahasiswa</option>
+					<option>Kerja</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Komentar</td>
+				<td></td>
+				<td><textarea name="komentar" id="komentar"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="Submit" value="Submit"> <input type="reset" name="Submit2" value="Reset"></td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</form>
+		</div>
+</body>
+</html>
